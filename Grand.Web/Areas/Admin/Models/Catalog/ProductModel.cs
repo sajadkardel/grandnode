@@ -38,6 +38,8 @@ namespace Grand.Web.Areas.Admin.Models.Catalog
             CalendarModel = new GenerateCalendarModel();
         }
 
+        public string TestField { get; set; }
+
         [GrandResourceDisplayName("Admin.Catalog.Products.Fields.ID")]
         public override string Id { get; set; }
 

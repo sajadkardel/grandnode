@@ -18,6 +18,8 @@ namespace Grand.Web.Areas.Admin.Models.Catalog
             AvailablePublishedOptions = new List<SelectListItem>();
         }
 
+        public string TestField { get; set; }
+
         [GrandResourceDisplayName("Admin.Catalog.Products.List.SearchProductName")]
         public string SearchProductName { get; set; }
         [GrandResourceDisplayName("Admin.Catalog.Products.List.SearchCategory")]
