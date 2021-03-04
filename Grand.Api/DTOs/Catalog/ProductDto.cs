@@ -21,6 +21,9 @@ namespace Grand.Api.DTOs.Catalog
             Tags = new List<string>();
             AppliedDiscounts = new List<string>();
         }
+
+        public string TestField { get; set; }
+
         [BsonElement("ProductTypeId")]
         public ProductType ProductType { get; set; }
         public string ParentGroupedProductId { get; set; }

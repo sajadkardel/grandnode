@@ -35,6 +35,8 @@ namespace Grand.Domain.Catalog
             Stores = new List<string>();
         }
 
+        public string TestField { get; set; }
+
         /// <summary>
         /// Gets or sets the product type identifier
         /// </summary>
